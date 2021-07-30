@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buubles.css">
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="music_container">
+            <div id="dark_ligth">
+                <i class="fas fa-sun" id="dark_light_icon"></i>
+            </div>
+
+            <div class="about_music">
+                <h2 id="song_title">Aadat</h2>
+                <h3 id="singer_name">Atif Aslam</h3>
+            </div>
+
+            <div class="music_image">
+                <img src="images/music-1.jpg" alt="">
+            </div>
+
+            <!-- music progress -->
+            <div class="progress_container">
+                <div class="audio_length">
+                    <div class="current_duration">0:00</div>
+                    <div class="total_duration">5:33</div>
+                </div>
+                <div class="progress_bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+
+            <audio src="music/music-1.mp3"></audio>
+            <div class="music_icons">
+                <i class="fas fa-backward" id="prev" title="Previous"></i>
+                <i class="fas fa-play" id="play" title="Play"></i>
+                <i class="fas fa-forward" id="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+<script src="bubbles.js"></script>
+
+</html>
